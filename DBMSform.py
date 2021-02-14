@@ -52,7 +52,7 @@ def logintodb(user, passw):
 
 root = tk.Tk()
 root.resizable(0,0) #remove maximize button
-root.wm_iconbitmap('favicon.ico')
+root.wm_iconbitmap("favicon.ico")
 root.geometry("400x250")
 root.title("Medical Access Form - Hospital Az-Zahra")
 
