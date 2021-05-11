@@ -8,6 +8,8 @@ def submitact():
     user = Username.get()
     passw = password.get()
 
+    //try db
+
     print(f"The name entered by you is {user} {passw}")
 
     logintodb(user, passw)
